@@ -71,7 +71,7 @@
                 <li class="list-group-item text-success"> Covid-19 Health Protocol</li>
               </ul>
               <div class="card-footer">
-            <a href="MODUL2 HARUN BOOKING.php?room=Standard" class="btn btn-primary btn-block">Book Now</a>
+                <a href="MODUL2 HARUN BOOK.php?room=Standard" class="btn btn-primary btn-block">Book Now</a>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
                 <li class="list-group-item text-success"> Covid-19 Health Protocol</li>
               </ul>
               <div class="card-footer">
-            <a href="MODUL2 HARUN BOOKING.php?room=Standard" class="btn btn-primary btn-block">Book Now</a>
+                <a href="MODUL2 HARUN BOOK.php?room=Standard" class="btn btn-primary btn-block">Book Now</a>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
                 <li class="list-group-item text-success"> Covid-19 Health Protocol</li>
               </ul>
               <div class="card-footer">
-            <a href="MODUL2 HARUN BOOKING.php?room=Standard" class="btn btn-primary btn-block">Book Now</a>
+                <a href="MODUL2 HARUN BOOK.php?room=Standard" class="btn btn-primary btn-block">Book Now</a>
               </div>
             </div>
           </div>
