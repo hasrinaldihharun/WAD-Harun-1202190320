@@ -1,5 +1,4 @@
 <?php
-    include 'Harun_Koneksi.php';
 
     $judul_buku = $_POST['judul_buku'];
     $penulis = $_POST['penulis'];
@@ -8,7 +7,7 @@
     $bahasa = $_POST['bahasa'];
     $tag = implode(",", $_POST['tag']);
 
-    $rand = rand();
+    $rand = randomize();
     $ekstensi = array('png','jpg','jpeg');
     $filename = $_FILES['cover']['name'];
     $ukuran = $_FILES['cover']['size'];
