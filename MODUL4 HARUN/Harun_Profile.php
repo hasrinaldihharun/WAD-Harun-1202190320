@@ -1,6 +1,6 @@
 <?php
-session_started();
-$conn = mysqli_connection("localhost","root","","wad_modul4");
+session_start();
+$conn = mysqli_connect("localhost","root","","wad_modul4");
 
 $email = $_SESSION["email"];
 $query = "SELECT * FROM users WHERE email = '$email'";
@@ -42,8 +42,8 @@ $display = mysqli_fetch_assoc($select);
                         <?php echo $display["nama"] ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Profile</a>
-                        <a class="dropdown-item" href="Logout.php">Logout</a>
+                        <a class="dropdown-item" href="Harun_Profile.php">Profile</a>
+                        <a class="dropdown-item" href="Harun_Logout.php">Logout</a>
                     </div>
                 </li>
 
