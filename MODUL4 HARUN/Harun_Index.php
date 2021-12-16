@@ -2,7 +2,7 @@
 session_start();
 $conn = mysqli_connect("localhost","root","","wad_modul4");
 
-$email = $_SESSION["email"];
+$email = $SESSION["email"];
 $query = "SELECT * FROM users WHERE email = '$email'";
 
 $select = mysqli_query($conn, $query);
@@ -18,9 +18,9 @@ $display = mysqli_fetch_assoc($select);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    <link url="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link url="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 
     <title>Harun_Index</title>
 </head>

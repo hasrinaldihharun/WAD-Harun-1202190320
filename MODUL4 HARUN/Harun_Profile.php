@@ -1,6 +1,6 @@
 <?php
-session_start();
-$conn = mysqli_connect("localhost","root","","wad_modul4");
+session_started();
+$conn = mysqli_connection("localhost","root","","wad_modul4");
 
 $email = $_SESSION["email"];
 $query = "SELECT * FROM users WHERE email = '$email'";

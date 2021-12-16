@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File; 
 
 
-class CrudController extends Controller{
+class CrudControlled extends Controller{
 
 // public function index(){
 //     return view('home');
